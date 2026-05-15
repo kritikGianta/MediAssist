@@ -1,0 +1,11 @@
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+python-dotenv==1.1.0
+langchain==0.3.25
+langchain-community==0.3.24
+faiss-cpu==1.11.0
+sentence-transformers==4.1.0
+pypdf==5.5.0
+python-multipart==0.0.20
+requests==2.32.3
+langchain-groq==0.3.8

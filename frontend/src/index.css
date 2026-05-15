@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  font-family: "Outfit", sans-serif;
+  background: #f6f1ea;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  background:
+    radial-gradient(circle at 10% 10%, rgba(132, 199, 188, 0.18), transparent 25%),
+    radial-gradient(circle at 88% 14%, rgba(231, 178, 159, 0.16), transparent 24%),
+    radial-gradient(circle at 50% 100%, rgba(77, 167, 149, 0.08), transparent 26%),
+    linear-gradient(180deg, #fbf8f4 0%, #f4efe8 100%);
+  color: #14262f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.glass {
+  background: rgba(255, 253, 249, 0.84);
+  border: 1px solid rgba(24, 54, 64, 0.08);
+  backdrop-filter: blur(18px);
+  box-shadow: 0 24px 70px rgba(20, 38, 47, 0.08);
+}
+
+.surface {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(250, 247, 242, 0.86));
+  border: 1px solid rgba(24, 54, 64, 0.08);
+  box-shadow: 0 14px 36px rgba(20, 38, 47, 0.06);
+}
+
+.soft-ring {
+  position: absolute;
+  border-radius: 999px;
+  border: 1px solid rgba(24, 54, 64, 0.08);
+  box-shadow: inset 0 0 40px rgba(24, 54, 64, 0.03);
+}
+
+.dark-panel {
+  background: linear-gradient(180deg, rgba(20, 38, 47, 0.98), rgba(24, 54, 64, 0.95));
+  color: #f6f1ea;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: 0 24px 70px rgba(20, 38, 47, 0.22);
+}
+
+.map-grid {
+  background-image:
+    linear-gradient(rgba(24, 54, 64, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(24, 54, 64, 0.08) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.elevated-3d {
+  transform: perspective(1200px) rotateX(8deg) rotateY(-9deg);
+  transform-style: preserve-3d;
+}
+
+.panel-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.panel-scroll::-webkit-scrollbar-thumb {
+  background: rgba(24, 54, 64, 0.18);
+  border-radius: 999px;
+}
