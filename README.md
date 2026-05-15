@@ -4,6 +4,20 @@ MediAssist AI is a highly advanced, local-first healthcare guidance chatbot powe
 
 ---
 
+## 📸 Screenshots
+
+| Landing Page | Chat Workspace |
+|:---:|:---:|
+| <img src="imgaes/Screenshot%202026-05-15%20131734.png" width="400"> | <img src="imgaes/Screenshot%202026-05-15%20131951.png" width="400"> |
+
+| Advanced Settings & RAG Tuning | Nearby Hospital Search |
+|:---:|:---:|
+| <img src="imgaes/Screenshot%202026-05-15%20132003.png" width="400"> | <img src="imgaes/Screenshot%202026-05-15%20132058.png" width="400"> |
+
+*(Note: The above images showcase the React-based frontend UI.)*
+
+---
+
 ## 🌟 What is Used (Tech Stack)
 
 ### 🖥️ Frontend
