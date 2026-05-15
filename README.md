@@ -115,5 +115,3 @@ The FastAPI backend exposes several key endpoints:
 
 ---
 
-## 🏥 Medical Disclaimer
-This application is designed for educational and informational purposes only. It is **not** a licensed medical professional. Always consult a doctor for accurate diagnoses or emergencies.
