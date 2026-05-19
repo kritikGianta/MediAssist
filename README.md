@@ -1,6 +1,6 @@
 # MediAssist AI 🏥🤖
 
-MediAssist AI is a highly advanced, local-first healthcare guidance chatbot powered by **Generative AI** and **Retrieval-Augmented Generation (RAG)**. It acts as an intelligent assistant to help users understand symptoms, review health reports, find safe over-the-counter (OTC) guidance, and locate nearby medical facilities.
+MediAssist AI is a advanced, local-first healthcare guidance chatbot powered by **Generative AI** and **Retrieval-Augmented Generation (RAG)**. It acts as an intelligent assistant to help users understand symptoms, review health reports, find safe over-the-counter (OTC) guidance, and locate nearby medical facilities.
 
 ---
 
